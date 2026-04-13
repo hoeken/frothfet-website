@@ -7,7 +7,11 @@ has_children: true
 
 # Hardware
 
+## PCB Layout - Rev F
+
 ![Layout of Revision F in Kicad.](/assets/FrothFET Rev F Layout.jpg)
+
+## 3D Render - Rev F
 
 ![FrothFET rendering](/assets/FrothFET Rev F Render.jpg)
 
