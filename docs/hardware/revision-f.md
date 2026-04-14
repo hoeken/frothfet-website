@@ -31,7 +31,12 @@ nav_order: 1
 
 FrothFET can take power from 12v to 30v, which makes it compatible with both 12v and 24v systems, both lead acid and LFP battery systems.  
 
-The board does **NOT** have reverse polarity protection, so it is essential to make sure you do not mix up the positive an negative when powering the board.
+FrothFET has a positive and negative busbar.  The positive busbar is longer than the negative busbar.  On each busbar is a M8 bolt for attaching the main power cables.  The positive connection can also be fitted with a MEGA fuse.
+
+Each busbar also has 8 connections to the board via M4 screws.  These screws are connected directly to the busbar and can be used for wiring your system.  DC loads can be grounded to an external ground, or wired to the bus bar connection for each channel.
+
+{ .warning}
+FrothFET does **NOT** have reverse polarity protection, so it is essential to make sure you do not mix up the positive and negative connections when powering the board.
 
 ## Rev F Pinout (click to enlarge)
 
@@ -40,8 +45,8 @@ The board does **NOT** have reverse polarity protection, so it is essential to m
 ## Source Files
 
 * [FrothFET Github Repository](https://github.com/hoeken/frothfet)
-* [FrothFET Rev C Schematic](https://raw.githubusercontent.com/hoeken/frothfet/main/schematics/FrothFET%20Rev%20F.pdf)
-* [3D Printable Case](https://raw.githubusercontent.com/hoeken/frothfet/refs/heads/main/models/FrothFET%20Rev%20C%20Case.step)
+* [FrothFET Rev F Schematic](https://github.com/hoeken/frothfet/blob/main/schematics/FrothFET%20Rev%20F.pdf)
+* [3D Printable Case](https://github.com/hoeken/frothfet/blob/main/models/FrothFet%20Rev%20F%20Case.step)
 
 
 # Manufacturing
