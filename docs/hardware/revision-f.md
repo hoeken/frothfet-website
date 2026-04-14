@@ -35,7 +35,7 @@ FrothFET has a positive and negative busbar.  The positive busbar is longer than
 
 Each busbar also has 8 connections to the board via M4 screws.  These screws are connected directly to the busbar and can be used for wiring your system.  DC loads can be grounded to an external ground, or wired to the bus bar connection for each channel.
 
-{ .warning}
+{: .warning}
 FrothFET does **NOT** have reverse polarity protection, so it is essential to make sure you do not mix up the positive and negative connections when powering the board.
 
 ## Rev F Pinout (click to enlarge)

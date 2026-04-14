@@ -15,6 +15,8 @@ The power cables for the FrothFET board should connect to the M8 posts on the **
 
 Your power cable size for the positive busbar should be chosen based on your maximum total amperage.  The fuse should be selected to protect the cable from damage.  We highly recommend this [wire + fuse selection chart](http://assets.bluesea.com/files/resources/reference/20010.pdf) from Blue Sea Systems.
 
+FrothFET uses standard **MEGA** fuses for the system fuse.
+
 The maximum recommended amperage for a FrothFET board is **100A**.
 
 ## DC Load Wiring
@@ -26,7 +28,7 @@ The **NEGATIVE** wire of your load has two options:
 1. Connected to the **CH#** on the FrothFET negative busbar
 1. An external **NEGATIVE** busbar (connected to the negative power cable)
 
-### Bypass Mode (eg. Bilge Pumps)
+### Parallel Bypass (eg. Bilge Pumps)
 
 It is possible to wire a switch in parallel to bypass FrothFET if needed.  For example, your bilge pumps should be wired with a switch directly to your supply voltage.
 
@@ -37,6 +39,8 @@ In this type of setup, you can control the bilge pump with FrothFET on demand, b
 ## Fuse Selection
 
 We highly recommend this [wire + fuse selection chart](http://assets.bluesea.com/files/resources/reference/20010.pdf) from Blue Sea Systems for selecting your wire and fuse size for each load.
+
+FrothFET uses standard ATC fuses for each channel.
 
 The maximum amperage for each channel is **20A**.
 
