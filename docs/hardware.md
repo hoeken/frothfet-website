@@ -17,7 +17,7 @@ has_children: true
 
 ## Block Level Design
 
-[![Brine-o-Matic 9000 Control Board Wiring](/assets/Brine-o-Matic 9000-Electrical - Control Board.drawio.png)](/assets/Brine-o-Matic 9000-Electrical - Control Board.drawio.pdf)
+[![FrothFET Block Level Design](/assets/Brine-o-Matic 9000-Electrical - Control Board.drawio.png)](/assets/Brine-o-Matic 9000-Electrical - Control Board.drawio.pdf)
 
 ## Controllable Loads
 
