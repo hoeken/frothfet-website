@@ -42,12 +42,19 @@ FrothFET does **NOT** have reverse polarity protection, so it is essential to ma
 
 [![FrothFET Rev F Pinout](/assets/FrothFET Rev F Pinout.png)](/assets/FrothFET Rev F Pinout.pdf)
 
+## PCB Layout - Rev F
+
+![Layout of Revision F in Kicad.](/assets/FrothFET Rev F Layout.jpg)
+
+## 3D Render - Rev F
+
+![FrothFET rendering](/assets/FrothFET Rev F Render.jpg)
+
 ## Source Files
 
 * [FrothFET Github Repository](https://github.com/hoeken/frothfet)
 * [FrothFET Rev F Schematic](https://github.com/hoeken/frothfet/blob/main/schematics/FrothFET%20Rev%20F.pdf)
 * [3D Printable Case](https://github.com/hoeken/frothfet/blob/main/models/FrothFet%20Rev%20F%20Case.step)
-
 
 # Manufacturing
 
