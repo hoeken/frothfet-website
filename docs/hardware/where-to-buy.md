@@ -13,6 +13,6 @@ FrothFET is fully open source, so you can order and assemble the PCB yourself. T
 
 [Instructions on how to do that here](/docs/hardware/revision-f.html#manufacturing)
 
-## Buy a Assembled Unit
+## Buy an Assembled Unit
 
-At some point, we plan on offering assembled PCBs as well as hardware kits to help you automate your own watermaker.  If you would like to be notified when they are available, please [enter your email here](https://forms.gle/CyuddCLdqdT9jqcTA).
+At some point, we plan on offering assembled PCBs as well as hardware kits.  If you would like to be notified when they are available, please [enter your email here](https://forms.gle/CyuddCLdqdT9jqcTA).

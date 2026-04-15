@@ -16,13 +16,11 @@ Publishes all available information under topic: `yarrboard/frothfet/*`
 To use FrothFET with Home Assistant, follow these steps:
 
 * Install the Mosquitto Broker (MQTT server) app in Home Assistant.
-* Enable MQTT discovery in Home Assistant
+* Enable MQTT discovery in Home Assistant (Settings → Devices & Services → MQTT)
 * In FrothFET, enable MQTT and the Home Assistant features
-* In Home Assistant, it should show the discovered watermaker
+* In Home Assistant, it should show the discovered FrothFET device
 
-[Download the Home Assistant dashboard YAML here](/assets/brineomatic-home-assistant.yaml)
-
-![Home Assistant Dashboard](/assets/brineomatic home assistant dashboard.png)
+![Home Assistant Dashboard](/assets/frothfet-home-assistant-dashboard.png)
 
 ## Raw API
 
@@ -49,9 +47,9 @@ Here are some example commands you could send:
 {"cmd":"set_channel","id":0,"state":false}
 ```
 
-For detailed information on the Brineomatic specific protocol, see ```src/controllers/PWMChannelController.cpp```
+For detailed information on the FrothFET PWM protocol, see ```src/controllers/PWMChannelController.cpp```
 
 Visit the [YarrboardFramework documentation](https://github.com/hoeken/YarrboardFramework#protocol) page for more details on the underlying protocol.
 
 ## SignalK
-All the same data as MQTT, but in SignalK delta format with the `???/frothfet/*` path.
+All the same data as MQTT, but in SignalK delta format. The specific SignalK path is coming soon.

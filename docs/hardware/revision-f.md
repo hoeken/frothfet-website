@@ -87,7 +87,9 @@ If no option is specified below, use the default options provided by JLCPCB.
 
 ```
 After production, insert the following parts:
-F??-F?? - LCSC ???
 ```
+
+{: .note }
+Specific fuse part numbers and placement references are coming soon.
 
 ![Manufacturing Instructions](/assets/FrothFET Rev F PCBA Instructions.png)

@@ -36,7 +36,8 @@ It is possible to wire a switch in parallel to bypass FrothFET if needed.  For e
 
 In this type of setup, you can control the bilge pump with FrothFET on demand, but also have it externally controlled with a float switch.  FrothFET can detect if a channel is bypassed which allows you to tell if your bilge pump is running.
 
-**TODO** - add wiring diagram
+{: .note }
+A wiring diagram for the parallel bypass configuration is coming soon.
 
 ## Wire Routing - Breakaway Tabs
 

@@ -9,7 +9,7 @@ has_children: true
 
 ## Block Level Design
 
-[![FrothFET Block Level Design](/assets/Brine-o-Matic 9000-Electrical - Control Board.drawio.png)](/assets/Brine-o-Matic 9000-Electrical - Control Board.drawio.pdf)
+[![FrothFET Block Level Design](/assets/FrothFET-Electrical-Control-Board.drawio.png)](/assets/FrothFET-Electrical-Control-Board.drawio.pdf)
 
 ## Controllable Loads
 
@@ -47,7 +47,7 @@ All hardware design files (schematics, gerbers, and BOM) are available on [GitHu
 ## Rev F Release Notes
 
 ### **Power & Regulation**
-* **5V Regulator:** Switched to **RT7272B** (ported from Brineomatic).
+* **5V Regulator:** Switched to **RT7272B** for improved efficiency.
 * **USB Power:** USB 5V now powers the ADC, buzzer, etc.
 * **Traces:** Beefed up 5V traces and added a partial 3.3V power plane.
 * **Level Shifting:** Added 3.3V to 5.0V level shifter for RGB LEDs.
