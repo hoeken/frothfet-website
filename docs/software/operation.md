@@ -13,7 +13,9 @@ You can access the firmware at [http://frothfet.local](http://frothfet.local) ([
 
 ## Load Control
 
-Interaction with FrothFET is limited to turning a load on or off, changing the brightness (or pwm) of a light, or resetting a tripped or blown channel.
+You can turn a load on/off by clicking the button with its name.  If a load is dimmable, it will have a slider that you can use to adjust the duty cycle / brightness.
+
+If a load enters the **TRIPPED** or **BLOWN** state, you can click the button to reset the channel.  Make sure to investigate the cause of the trip or the state of the fuse before switching the load back on.
 
 ## Channel Modes
 
