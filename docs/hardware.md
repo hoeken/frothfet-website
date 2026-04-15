@@ -9,7 +9,7 @@ has_children: true
 
 ## Block Level Design
 
-[![FrothFET Block Level Design](/assets/FrothFET-Electrical-Control-Board.drawio.png)](/assets/FrothFET-Electrical-Control-Board.drawio.pdf)
+[![FrothFET Block Level Design](/assets/FrothFET Rev F Block Diagram.png)](/assets/FrothFET Rev F Block Diagram.pdf)
 
 ## Controllable Loads
 

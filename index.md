@@ -12,19 +12,20 @@ FrothFET is a DC load controller for doing digital switching of loads on your bo
 
 <a href="/docs/hardware/revision-f"><img src="/assets/FrothFET Rev F Finished.jpg" alt="FrothFET Board Assembled" class="img-right"></a>
 
-* 8 x separately controllable load driver channels with:
-  * 20A current maximum per channel (with fans!)
+* 8 x load driver channels with:
+  * 20A max current per channel
   * Built-in ATC fuses with bypass mode
-  * Current monitoring accurate to about 0.01A on each channel
-  * Firmware supports soft fuses to protect from overcurrent per-channel and overall
+  * Current monitoring accurate to 0.01A
+  * Firmware supports soft fuses to protect from overcurrent
   * Voltage sensing (run detection + fuse failure + bypass detection)
-  * PCB made with heavy duty 2oz copper, 4 layers, and thick copper busbars to handle big loads
+  * PCB made with heavy duty 2oz copper, 4 layers, and thick copper busbars
   * M4 (#8) screw terminals for secure and easy setup
-  * dimmable with PWM control
-* 12v to 30v supply voltage (supports both lead acid and lithium battery systems in either 12v or 24v configuration)
+  * dimmable LED support with gamma aware fading
+* 12v to 30v supply voltage
+  * Supports both lead acid and lithium battery systems in either 12v or 24v configuration
 * 100A total system power (beefy copper busbar)
 * easy system fusing with optional MEGA fuse on busbar.
-* 2x cooling fan headers with PWM or on/off control
+* 2x cooling fan headers for standard 5v PC fans
 * 3D printable case w/ design files
 * ESP32-S3 controller with WiFi, Bluetooth, USB-C, etc.
 

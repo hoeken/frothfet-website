@@ -32,12 +32,11 @@ Individual channel connections are M4 screws (#8 equivalent).  We recommend usin
 
 ### Parallel Bypass (eg. Bilge Pumps)
 
-It is possible to wire a switch in parallel to bypass FrothFET if needed.  For example, your bilge pumps should be wired with a switch directly to your supply voltage.
+It is possible to wire a switch in parallel to bypass FrothFET if needed.  For example, your bilge pumps should be wired with a float switch directly to your supply voltage.
 
 In this type of setup, you can control the bilge pump with FrothFET on demand, but also have it externally controlled with a float switch.  FrothFET can detect if a channel is bypassed which allows you to tell if your bilge pump is running.
 
-{: .note }
-A wiring diagram for the parallel bypass configuration is coming soon.
+<img src="/assets/FrothFET Bilge Pump Wiring.png" alt="Bilge Pump Wiring Example" class="img-right">
 
 ## Wire Routing - Breakaway Tabs
 
