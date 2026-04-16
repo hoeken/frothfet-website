@@ -15,7 +15,7 @@ has_children: true
 
 FrothFET is designed to control just about any DC load, up to 20A.  This includes, but is not limited to:
 
-- LED lighting (dimmable)
+- LED lighting (dimmable or on/off)
 - Pumps
 - Motors
 - Solenoids

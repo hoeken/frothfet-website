@@ -9,7 +9,19 @@ nav_order: 4
 
 ## MQTT
 
-Publishes all available information under topic: `yarrboard/frothfet/*`
+Publishes all available information under topic: `yarrboard/frothfet/pwm/{channel-key}/*`
+
+| Field | Type | Description |
+|---|---|---|
+| `state` | string | ON / OFF / TRIPPED / BLOWN / BYPASSED / OVERHEAT |
+| `source` | string | What last changed the channel state (e.g. `manual`, `mqtt`, `serial`, `timer`) |
+| `duty` | float | PWM duty cycle from 0.0 to 1.0. Only present if the channel is dimmable. |
+| `voltage` | float | Channel voltage in volts |
+| `current` | float | Channel current in amps |
+| `wattage` | float | Channel power in watts |
+| `temperature` | float | Channel temperature in °C |
+| `aH` | float | Accumulated amp-hours since last reset |
+| `wH` | float | Accumulated watt-hours since last reset |
 
 ### Home Assistant
 
@@ -19,8 +31,7 @@ To use FrothFET with Home Assistant, follow these steps:
 * Enable MQTT discovery in Home Assistant (Settings → Devices & Services → MQTT)
 * In FrothFET, enable MQTT and the Home Assistant features
 * In Home Assistant, it should show the discovered FrothFET device
-
-![Home Assistant Dashboard](/assets/frothfet-home-assistant-dashboard.png)
+* Each channel will be listed as an appropriate device that can be controlled by Home Assistant.
 
 ## Raw API
 

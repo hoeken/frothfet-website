@@ -50,11 +50,14 @@ FrothFET does **NOT** have reverse polarity protection, so it is essential to ma
 
 ![FrothFET rendering](/assets/FrothFET Rev F Render.jpg)
 
+## 3D Printable Case
+
+[![FrothFET Rev F Case](/assets/FrothFET Rev F case.jpg)](https://github.com/hoeken/frothfet/blob/main/models/FrothFet%20Rev%20F%20Case.step)
+
 ## Source Files
 
 * [FrothFET Github Repository](https://github.com/hoeken/frothfet)
 * [FrothFET Rev F Schematic](https://github.com/hoeken/frothfet/blob/main/schematics/FrothFET%20Rev%20F.pdf)
-* [3D Printable Case](https://github.com/hoeken/frothfet/blob/main/models/FrothFet%20Rev%20F%20Case.step)
 
 # Manufacturing
 
@@ -82,14 +85,3 @@ If no option is specified below, use the default options provided by JLCPCB.
 ### Assembly
 
 * Depanel Boards: YES
-* PCBA Remark - attach image below
-* PCBA Remark - add the text below
-
-```
-After production, insert the following parts:
-```
-
-{: .note }
-Specific fuse part numbers and placement references are coming soon.
-
-![Manufacturing Instructions](/assets/FrothFET Rev F PCBA Instructions.png)
