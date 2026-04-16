@@ -52,7 +52,7 @@ FrothFET does **NOT** have reverse polarity protection, so it is essential to ma
 
 ## 3D Printable Case
 
-[![FrothFET Rev F Case](/assets/FrothFET Rev F case.jpg)](https://github.com/hoeken/frothfet/blob/main/models/FrothFet%20Rev%20F%20Case.step)
+[![FrothFET Rev F Case](/assets/FrothFET Rev F Case.jpg)](https://github.com/hoeken/frothfet/blob/main/models/FrothFet%20Rev%20F%20Case.step)
 
 ## Source Files
 
@@ -85,3 +85,16 @@ If no option is specified below, use the default options provided by JLCPCB.
 ### Assembly
 
 * Depanel Boards: YES
+
+## Busbars
+
+The busbar prototypes were made from lasercut 1/8" (3mm) copper from [SendCutSend](https://sendcutsend.com/) and hand threaded with a power drill.  They could also be CNC cut or even made by hand if you need to.  Ideally they would also be tin plated to prevent corrosion.
+
+The design files are located here:
+
+- [Positive Busbar (FreeCAD)](https://github.com/hoeken/frothfet/blob/main/models/Positive%20Busbar%20Rev%20F.FCStd)
+- [Negative Busbar (FreeCAD)](https://github.com/hoeken/frothfet/blob/main/models/Negative%20Busbar%20Rev%20F.FCStd)
+
+The busbars are also available as STEP files as part of the case design file.
+
+The small holes should be tapped **M4 x 0.7mm**, the large holes should be tapped **M8 x 1.25mm**.
