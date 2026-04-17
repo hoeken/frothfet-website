@@ -19,7 +19,7 @@ You can optionally have a MEGA fuse on the positive busbar.  FrothFET uses stand
 
 The maximum recommended amperage for a FrothFET board is **100A**.
 
-![Power Connections](/assets/FrothFET Power Wiring.png)
+![Power Connections](/assets/FrothFET Power Wiring.jpg)
 
 ## DC Load Wiring
 
@@ -32,7 +32,7 @@ The **NEGATIVE** wire of your load has two options:
 
 Individual channel connections are M4 screws (#8 equivalent).  We recommend using marine grade, adhesive lined crimp connectors, either ring or spade (fork) style.
 
-![Power Connections](/assets/FrothFET Power Wiring.png)
+![Load Connections](/assets/FrothFET Load Wiring.jpg)
 
 ### Parallel Bypass (eg. Bilge Pumps)
 
