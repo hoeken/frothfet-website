@@ -10,7 +10,7 @@ FrothFET is a DC load controller for doing digital switching of loads on your bo
 
 ## Specifications:
 
-<a href="/docs/hardware/revision-f"><img src="/assets/FrothFET Rev F Finished.jpg" alt="FrothFET Board Assembled" class="img-right"></a>
+<a href="/docs/hardware/revision-f"><img src="/assets/FrothFET Rev F Finished.jpg" alt="FrothFET Board Assembled" class="img-main"></a>
 
 * 8 x load driver channels with:
   * 20A max current per channel
