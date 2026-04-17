@@ -9,18 +9,18 @@ nav_order: 1
 
 ## Core capabilities:
 
-<a href="/assets/FrothFET Rev F Finished.jpg"><img src="/assets/FrothFET Rev F Finished.jpg" alt="FrothFet Assembled Board" class="img-right"></a>
+<a href="/assets/FrothFET Rev F Finished.jpg"><img src="/assets/FrothFET Rev F Finished.jpg" alt="FrothFet Assembled Board" class="img-main"></a>
 
 * 8 x separately controllable load driver channels with:
-  * 20A current maximum per channel (with fans!)
-  * Built-in ATC fuses with bypass mode
-  * Current monitoring accurate to about 0.01A on each channel
-  * Firmware supports soft fuses to protect from overcurrent per-channel and overall
-  * Voltage sensing (run detection + fuse failure + bypass detection)
-  * PCB made with heavy duty 2oz copper, 4 layers, and thick copper busbars to handle big loads
-  * M4 (#8) screw terminals for secure and easy setup
-  * dimmable with PWM control
-* 12v to 30v supply voltage (supports both lead acid and lithium battery systems in either 12v or 24v configuration)
+* 20A current maximum per channel (with fans!)
+* Built-in ATC fuses with bypass mode
+* Per channel current monitoring, accurate to 0.01A
+* Soft fuses and short protection
+* Run detection + Fuse failure + Bypass detection
+* Heavy 2oz copper PCB + thick bus bars
+* M4 (#8) screw terminals for secure and easy setup
+* Dimmable controls for LED lighting
+* 12v to 30v supply voltage (lead acid and lithium)
 * 100A total system power (beefy copper busbar)
 * easy system fusing with optional MEGA fuse on busbar.
 * 2x cooling fan headers with PWM or on/off control
