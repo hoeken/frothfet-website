@@ -38,6 +38,8 @@ Each busbar also has 8 connections to the board via M4 screws.  These screws are
 {: .warning}
 FrothFET does **NOT** have reverse polarity protection, so it is essential to make sure you do not mix up the positive and negative connections when powering the board.
 
+![Power Connections](/assets/FrothFET Power Wiring.png)
+
 ## Rev F Pinout (click to enlarge)
 
 [![FrothFET Rev F Pinout](/assets/FrothFET Rev F Pinout.png)](/assets/FrothFET Rev F Pinout.pdf)
