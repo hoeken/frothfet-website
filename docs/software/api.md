@@ -13,7 +13,7 @@ Publishes all available information under topic: `yarrboard/frothfet/pwm/{channe
 
 | Field | Type | Description |
 |---|---|---|
-| `state` | string | ON / OFF / TRIPPED / BLOWN / BYPASSED / OVERHEAT |
+| `state` | string | <span class="bg-green-100 text-grey-lt-000" style="border-radius:12px;padding:0.1em 0.5em;">ON</span> / <span class="bg-grey-lt-200 text-grey-dk-200" style="border-radius:12px;padding:0.1em 0.5em;">OFF</span> / <span class="bg-yellow-100 text-grey-dk-300" style="border-radius:12px;padding:0.1em 0.5em;">TRIPPED</span> / <span class="bg-red-100 text-grey-lt-000" style="border-radius:12px;padding:0.1em 0.5em;">BLOWN</span> / <span class="bg-blue-000 text-grey-lt-000" style="border-radius:12px;padding:0.1em 0.5em;">BYPASSED</span> / <span style="background-color:#f97316;color:#fff;border-radius:12px;padding:0.1em 0.5em;">OVERHEAT</span> |
 | `source` | string | What last changed the channel state (e.g. `manual`, `mqtt`, `serial`, `timer`) |
 | `duty` | float | PWM duty cycle from 0.0 to 1.0. Only present if the channel is dimmable. |
 | `voltage` | float | Channel voltage in volts |

@@ -27,7 +27,7 @@ This toggle enables PWM (duty cycle) or brightness control.  For LED lighting, t
 
 Soft fuse is current limit for this channel.  Set it to a reasonable value above the normally expected load.  If you don't know this amount, you can measure the amperage using FrothFET and adjust it later.
 
-If this current is exceeded, the channel will turn off and enter into "TRIPPED" mode.  You can reset it by clicking the channel button in the UI.
+If this current is exceeded, the channel will turn off and enter into <span class="bg-yellow-100 text-grey-dk-300" style="border-radius:12px;padding:0.1em 0.5em;">TRIPPED</span> mode.  You can reset it by clicking the channel button in the UI.
 
 ### Soft Fuse Type
 
@@ -41,7 +41,7 @@ Choose the one that is appropriate for your load.  For inductive loads like moto
 
 ### Default State
 
-This is the state of the output on boot.  If you want a load such as a water pump to always start in the **ON** state, use this option.
+This is the state of the output on boot.  If you want a load such as a water pump to always start in the <span class="bg-green-100 text-grey-lt-000" style="border-radius:12px;padding:0.1em 0.5em;">ON</span> state, use this option.
 
 ### Output Type
 

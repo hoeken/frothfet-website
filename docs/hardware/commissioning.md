@@ -56,13 +56,13 @@ FrothFET uses standard ATC fuses for each channel.
 
 The maximum amperage for each channel is **20A**.
 
-### Fuse Bypass Mode
+## Fuse Bypass Mode
 
 <img src="/assets/FrothFET Bypass Fuse.jpg" alt="Bypass Fuse" class="img-right">
 
 When installing the fuse, note there are two possible positions:  **NORMAL** and **BYPASS**.  Normal mode is the position for standard operation.  In case of electronics failure, you can move the fuse to BYPASS mode which will connect the load directly to your supply voltage, bypassing FrothFET control.
 
-### Indicator LEDs
+## Indicator LEDs
 
 <img src="/assets/FrothFET Indicator LEDS.jpg" alt="Indicator LEDs" class="img-right">
 
@@ -70,9 +70,9 @@ Each channel has an RGB led located next to the fuse.  This LED will change colo
 
 - <span class="bg-grey-lt-200 text-grey-dk-200" style="border-radius:12px;padding:0.1em 0.5em;">OFF</span>
 - <span class="bg-green-100 text-grey-lt-000" style="border-radius:12px;padding:0.1em 0.5em;">ON</span>
+- <span class="bg-blue-000 text-grey-lt-000" style="border-radius:12px;padding:0.1em 0.5em;">BYPASSED</span>
 - <span class="bg-yellow-100 text-grey-dk-300" style="border-radius:12px;padding:0.1em 0.5em;">TRIPPED</span>
 - <span class="bg-red-100 text-grey-lt-000" style="border-radius:12px;padding:0.1em 0.5em;">BLOWN</span>
-- <span class="bg-blue-000 text-grey-lt-000" style="border-radius:12px;padding:0.1em 0.5em;">BYPASSED</span>
 - <span style="background-color:#f97316;color:#fff;border-radius:12px;padding:0.1em 0.5em;">OVERHEAT</span>
 
 ## Cooling Fans
