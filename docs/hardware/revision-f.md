@@ -11,7 +11,7 @@ nav_order: 1
 
 <a href="/assets/FrothFET Rev F Finished.jpg"><img src="/assets/FrothFET Rev F Finished.jpg" alt="FrothFet Assembled Board" class="img-main"></a>
 
-* 8 x separately controllable load driver channels with:
+* 8 x separately controllable channels
 * 20A current maximum per channel (with fans)
 * Built-in ATC fuses with bypass mode
 * Per channel current monitoring, accurate to 0.01A

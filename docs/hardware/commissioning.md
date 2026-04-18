@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Commissioning
+title: Installation
 parent: Hardware
 nav_order: 3
 ---
 
-# Commissioning
+# Installation
 
-For the commissioning process, it is best to start the plan on paper.  Write out what loads you want to control, their amperages, determine the required fuses and cabling.  Once you have that, you can plan your installation location and begin wiring everything up.
+For the installation process, it is best to start the plan on paper.  Write out what loads you want to control, their amperages, determine the required fuses and cabling.  Once you have that, you can plan your installation location and begin wiring everything up.
 
 ## Power Cables
 
@@ -52,7 +52,7 @@ The 3D printed FrothFET case comes with breakaway tabs for each channel, as well
 
 We highly recommend this [wire + fuse selection chart](http://assets.bluesea.com/files/resources/reference/20010.pdf) from Blue Sea Systems for selecting your wire and fuse size for each load.
 
-FrothFET uses standard ATC fuses for each channel.
+FrothFET uses standard **ATC** fuses for each channel.
 
 The maximum amperage for each channel is **20A**.
 

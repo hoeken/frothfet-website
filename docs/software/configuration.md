@@ -21,11 +21,11 @@ Name is what is shown to the user, and key is used for API paths such as MQTT to
 
 ### Dimmable
 
-This toggle enables PWM (duty cycle) or brightness control.  For LED lighting, this will control the brightness.  For motors and pumps, you can use PWM to control the speed and power of the motor.
+This toggle enables PWM / duty cycle / brightness control.  For LED lighting, this will control the brightness.  For motors and pumps, you can use PWM to control the speed and power of the motor.
 
 ### Soft Fuse
 
-Soft fuse is current limit for this channel.  Set it to a reasonable value above the normally expected load.  If you don't know this amount, you can measure the amperage using FrothFET and adjust it later.
+Soft fuse is the current limit for this channel.  Set it to a reasonable value above the normally expected load.  If you don't know this amount, you can measure the amperage using FrothFET and adjust it later.
 
 If this current is exceeded, the channel will turn off and enter into <span class="bg-yellow-100 text-grey-dk-300" style="border-radius:12px;padding:0.1em 0.5em;">TRIPPED</span> mode.  You can reset it by clicking the channel button in the UI.
 
@@ -33,11 +33,11 @@ If this current is exceeded, the channel will turn off and enter into <span clas
 
 There are 3 soft fuse types:
 
-* **SLOW**
-* **MEDIUM**
-* **FAST**
+* **SLOW** - trips in 2-3 seconds
+* **MEDIUM** - trips in 20-50 milliseconds
+* **FAST** - trips in 50-1000 microseconds
 
-Choose the one that is appropriate for your load.  For inductive loads like motors, pumps, fans, and solenoids you will want to chose **SLOW**.  For other loads, all types are acceptable.
+Choose the one that is appropriate for your load.  For inductive loads like motors, pumps, fans, and solenoids you will want to chose **SLOW**.  For other loads, any type is acceptable.
 
 ### Default State
 
@@ -47,7 +47,7 @@ This is the state of the output on boot.  If you want a load such as a water pum
 
 Choose from a variety of different load types.  Mostly it is for choosing the icon to display in the UI.
 
-The exception to this, is **Light**.  If you choose Light and enabled **Dimming** then the light will be tied into global brightness, as well as enable the gamma-aware smooth fading for turning lights on and off.
+The exception to this, is **Light**.  If you choose **Light** and enable **Dimming** then the light will be tied into global brightness.  It is also required to enable the gamma-aware smooth fading for turning lights on and off.
 
 ### Bypass / Soft Trip / Fuse Blown / Overheated Melody
 
